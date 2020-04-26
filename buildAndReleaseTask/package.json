@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-web-app1",
+  "version": "0.0.0",
+  "description": "NodejsWebApp1",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "node server"
+  },
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^8.10.60",
+    "@types/q": "^1.5.2",
+    "sync-request": "^6.1.0",
+    "typescript": "^3.2.2"
+  },
+  "engines": {
+    "node": "^8.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "azure-pipelines-task-lib": "^2.9.3",
+    "got": "^11.0.2",
+    "request": "^2.88.2",
+    "vsts-task-lib": "^2.7.0"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "manifestVersion": 1,
+  "id": "Message",
+  "publisher": "wangshuai",
+  "version": "1.1.0",
+  "name": "SendToftqq",
+  "description": "A tool to send message to wechat by http://sc.ftqq.com/",
+  "public": false,
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "icons": {
+    "default": "images/SC_Icon.png"
+  },
+  "screenshots": [
+    {
+      "path": "images/extension_screenshots.png"
+    },
+    {
+      "path": "images/ftqq_SCKEY.png"
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "readme.md"
+    },
+    "license": {
+      "path": "LICENSE"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/wangshuai-007/SendToftqq"
+  },
+  "files": [
+    {
+      "path": "buildAndReleaseTask"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "send-message-task",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "buildAndReleaseTask"
+      }
+    }
+  ],
+  "tags": [
+    "ftqq",
+    "message",
+    "wechat"
+  ]
+
+}
