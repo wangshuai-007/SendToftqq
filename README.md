@@ -1,7 +1,3 @@
----
-
----
-
 
 A tool to send messages to wechat in Azure DevOps pipline.
 
