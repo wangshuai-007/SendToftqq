@@ -10,6 +10,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- task: TfxInstaller@2
+  inputs:
+    version: 'v0.6.x'
 - task: ms-devlabs.vsts-developer-tools-build-tasks.publish-extension-build-task.PublishAzureDevOpsExtension@2
   displayName: 'Publish Extension'
   inputs:
