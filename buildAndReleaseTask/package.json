@@ -21,7 +21,7 @@
     "node": "^8.0.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "azure-pipelines-task-lib": "^2.9.3",
     "got": "^11.0.2",
     "request": "^2.88.2",
